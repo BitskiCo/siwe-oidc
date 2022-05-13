@@ -41,21 +41,6 @@
 						pollingInterval: 100000,
 					},
 				},
-				torus: {
-					package: Torus,
-				},
-				portis: {
-					package: Portis,
-					options: {
-						id: process.env.PORTIS_ID,
-					},
-				},
-				fortmatic: {
-					package: Fortmatic,
-					options: {
-						key: process.env.FORTMATIC_KEY,
-					},
-				},
 				walletlink: {
 					package: CoinbaseWalletSDK,
 					options: {
